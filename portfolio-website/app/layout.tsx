@@ -8,13 +8,13 @@ import Footer from "./components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John Doe - Full-Stack Developer & UI/UX Designer",
+  title: "Varun Sharma - Full-Stack Developer & UI/UX Designer",
   description:
-    "Portfolio of John Doe, a passionate full-stack developer and UI/UX designer creating digital experiences that make a difference.",
+    "Portfolio of Varun Sharma, a passionate full-stack developer and UI/UX designer creating digital experiences that make a difference.",
   keywords: "full-stack developer, UI/UX designer, React, Next.js, portfolio, web development",
-  authors: [{ name: "John Doe" }],
+  authors: [{ name: "Varun Sharma" }],
   openGraph: {
-    title: "John Doe - Full-Stack Developer & UI/UX Designer",
+    title: "Varun Sharma - Full-Stack Developer & UI/UX Designer",
     description: "Portfolio showcasing innovative web development projects and design solutions.",
     type: "website",
   },

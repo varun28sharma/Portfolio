@@ -7,22 +7,22 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">John Doe</h3>
+            <h3 className="text-2xl font-bold mb-4">Varun Sharma</h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Full-stack developer passionate about creating digital experiences that make a difference. Always
               learning, always building.
             </p>
             <div className="flex space-x-4">
-              <Link href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://github.com/varun28sharma" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
               </Link>
-              <Link href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/in/varun-sharma-2b7964285/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </Link>
               <Link href="https://twitter.com" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={24} />
               </Link>
-              <Link href="mailto:john@example.com" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="mailto:10dvarunsharma@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </Link>
             </div>
@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          <p className="text-gray-400">© {new Date().getFullYear()} Varun Sharma. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Projects - John Doe",
+  title: "Projects - Varun Sharma",
   description:
     "Explore my portfolio of web development projects, showcasing expertise in React, Next.js, and modern web technologies.",
 }

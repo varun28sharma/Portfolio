@@ -6,9 +6,9 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
-  title: "About - John Doe",
+  title: "About - Varun Sharma",
   description:
-    "Learn more about John Doe, a passionate full-stack developer with expertise in React, Next.js, and modern web technologies.",
+    "Learn more about Varun Sharma, a passionate full-stack developer with expertise in React, Next.js, and modern web technologies.",
 }
 
 export default function AboutPage() {
@@ -80,7 +80,7 @@ export default function AboutPage() {
                 <div className="relative z-10">
                   <Image
                     src="/placeholder.svg?height=600&width=500"
-                    alt="John Doe"
+                    alt="Varun Sharma"
                     width={500}
                     height={600}
                     className="rounded-2xl shadow-2xl"

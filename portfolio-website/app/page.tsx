@@ -77,9 +77,9 @@ export default function HomePage() {
           <div className="animate-fade-in-up">
             {/* Enhanced Name with Glow Effect */}
             <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white text-glow">
-              <span className="inline-block animate-scale-in">John</span>{" "}
+              <span className="inline-block animate-scale-in">Varun</span>{" "}
               <span className="inline-block animate-scale-in text-gradient-rainbow" style={{ animationDelay: "0.2s" }}>
-                Doe
+                Sharma
               </span>
             </h1>
 
@@ -208,7 +208,7 @@ export default function HomePage() {
                 <div className="relative z-10 hover-tilt">
                   <Image
                     src="/placeholder.svg?height=600&width=500"
-                    alt="John Doe"
+                    alt="Varun Sharma"
                     width={500}
                     height={600}
                     className="rounded-3xl shadow-2xl"

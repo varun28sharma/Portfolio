@@ -41,7 +41,7 @@ export default function Navigation() {
               <div
                 className={`w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center transition-all duration-300 group-hover:scale-110 ${isScrolled ? "shadow-lg" : "shadow-neon"}`}
               >
-                <span className="text-white font-bold text-lg">JD</span>
+                <span className="text-white font-bold text-lg">VS</span>
               </div>
               <span
                 className={`font-bold text-xl transition-colors duration-300 ${
