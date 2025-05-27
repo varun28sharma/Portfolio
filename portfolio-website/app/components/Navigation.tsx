@@ -64,7 +64,7 @@ export default function Navigation() {
                     ? "text-blue-600 font-semibold"
                     : isScrolled
                       ? "text-gray-700 hover:text-blue-600"
-                      : "text-white hover:text-blue-300"
+                      : "text-gray-900 hover:text-blue-600"
                 }`}
               >
                 {item.label}
@@ -107,7 +107,7 @@ export default function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`block px-4 py-3 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 animate-slide-in-left ${
+                  className={`block px-4 py-3 rounded-lg text-gray-900 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 animate-slide-in-left ${
                     pathname === item.href ? "text-blue-600 font-semibold bg-blue-50" : ""
                   }`}
                   style={{ animationDelay: `${index * 0.1}s` }}

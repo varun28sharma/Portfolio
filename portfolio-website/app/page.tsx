@@ -86,7 +86,7 @@ export default function HomePage() {
             {/* Animated Subtitle */}
             <div className="relative mb-8">
               <p className="text-2xl md:text-3xl text-white/90 font-light">
-                Full-Stack Developer &<span className="text-gradient-rainbow font-semibold"> UI/UX Designer</span>
+                 <span className="text-gradient-rainbow font-semibold">Full-Stack Developer </span>
               </p>
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-white to-transparent animate-pulse" />
             </div>
@@ -274,16 +274,16 @@ export default function HomePage() {
                     </div>
                   </div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-gradient transition-all duration-300">
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900 group-hover:text-gradient transition-all duration-300">
                       {project.title}
                     </h3>
-                    <p className="text-gray-300 mb-4 line-clamp-3">{project.description}</p>
+                    <p className="text-gray-600 mb-4 line-clamp-3">{project.description}</p>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.technologies.map((tech) => (
                         <Badge
                           key={tech}
                           variant="outline"
-                          className="text-xs border-white/20 text-gray-300 hover:border-white/40 transition-colors"
+                          className="text-xs border-gray-200 text-gray-700 hover:border-blue-300 transition-colors"
                         >
                           {tech}
                         </Badge>
@@ -294,7 +294,7 @@ export default function HomePage() {
                         <Button
                           variant="outline"
                           size="sm"
-                          className="w-full border-white/20 text-white hover:bg-white/10 transition-all duration-300"
+                          className="w-full border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all duration-300"
                         >
                           <ExternalLink className="mr-2 h-4 w-4" />
                           Live Demo
@@ -304,7 +304,7 @@ export default function HomePage() {
                         <Button
                           variant="outline"
                           size="sm"
-                          className="border-white/20 text-white hover:bg-white/10 transition-all duration-300"
+                          className="border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all duration-300"
                         >
                           <Github className="h-4 w-4" />
                         </Button>

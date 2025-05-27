@@ -161,7 +161,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Email</h3>
-                      <p className="text-gray-600">john.doe@example.com</p>
+                      <p className="text-gray-600">10dvarunsharma@gmail.com</p>
                     </div>
                   </div>
 
@@ -171,7 +171,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Phone</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <p className="text-gray-600">+91 9070794537</p>
                     </div>
                   </div>
 
@@ -181,7 +181,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Location</h3>
-                      <p className="text-gray-600">San Francisco, CA</p>
+                      <p className="text-gray-600">Jammu, India</p>
                     </div>
                   </div>
                 </div>
@@ -190,13 +190,13 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Me</h3>
                   <div className="flex space-x-4">
                     <Link
-                      href="https://github.com"
+                      href="https://github.com/varun28sharma"
                       className="bg-gray-100 p-3 rounded-full hover:bg-gray-200 transition-colors"
                     >
                       <Github className="h-6 w-6 text-gray-700" />
                     </Link>
                     <Link
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/varun-sharma-2b7964285/"
                       className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors"
                     >
                       <Linkedin className="h-6 w-6 text-blue-700" />
