@@ -165,7 +165,7 @@ export default function HomePage() {
                 </div>
 
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that
+                  I'm a passionate full-stack developer creating digital solutions that
                   drive business growth. My expertise spans modern web technologies, from React and Next.js to Node.js
                   and cloud platforms.
                 </p>

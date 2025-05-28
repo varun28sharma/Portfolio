@@ -20,33 +20,48 @@ export default function AboutPage() {
 
   const experience = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechCorp Inc.",
-      period: "2022 - Present",
+      title: "Academic Project: Music Streaming Website : Wavv",
+      period: "2024/2025",
       description:
-        "Lead development of scalable web applications using React, Next.js, and Node.js. Mentored junior developers and implemented best practices for code quality and performance.",
+        "Developed a music streaming website using React, Next.js, and Node.js. Implemented features like playlist creation, song search, and user authentication. Collaborated with a team of 4 developers to deliver a functional and user-friendly application.",
     },
     {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
+      title: " Virtual Internship: THE AGNIRVA SPACE INTERNSHIP PROGRAM ",
+      period: "2023/2024",
       description:
-        "Built responsive web applications and improved user experience. Collaborated with design team to implement pixel-perfect interfaces and optimize performance.",
+        "Worked on a project to develop a web application for the AGNIRVA SPACE INTERNSHIP PROGRAM. Implemented features like event registration, resource sharing, and community engagement. Collaborated with a team of 15 developers to deliver a functional and user-friendly application.",
     },
     {
-      title: "Junior Developer",
-      company: "WebSolutions Ltd.",
-      period: "2019 - 2020",
+      title: "Volunteer/Extracurricular: FOSS Club / KLGLUG",
+      period: "2024/2025",
       description:
-        "Developed and maintained client websites using modern web technologies. Gained experience in full-stack development and agile methodologies.",
+        "Contributed to the development of the FOSS Club website using React, Next.js, and Node.js. Implemented features like event registration, resource sharing, and community engagement. Collaborated with a team of 15 developers to deliver a functional and user-friendly application.",
     },
+    // Add more entries as needed
   ]
 
   const achievements = [
-    { icon: Award, title: "AWS Certified Developer", description: "Associate level certification" },
-    { icon: Users, title: "Team Leadership", description: "Led teams of 5+ developers" },
-    { icon: Coffee, title: "Open Source", description: "Contributor to 20+ projects" },
-    { icon: Code, title: "Projects Delivered", description: "50+ successful projects" },
+    {
+      icon: Award,
+      title: "Academic Honor/Award",
+      description: "Received a Letter of Recommendation from the Entrepreneurial Department in the first year of college",
+    },
+    {
+      icon: Code,
+      title: "Hackathon/Coding Competition",
+      description: "Participated in multiple college hackathons and finished in SIH with the project 'Legal Adviser'",
+    },
+    {
+      icon: Users,
+      title: "Student Club Leadership/Involvement",
+      description: "Active Core Member, Developer at KL GLUG",
+    },
+    {
+      icon: Coffee,
+      title: "Significant Project Contribution",
+      description: "Currently working on an AI PDF Detector that detects fake PDFs",
+    },
+    // Add more entries as needed
   ]
 
   return (
@@ -59,7 +74,7 @@ export default function AboutPage() {
               <div>
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">About Me</h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                  I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that
+                  I'm a passionate full-stack developer creating digital solutions that
                   drive business growth and enhance user experiences.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -79,7 +94,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative z-10">
                   <Image
-                    src="/placeholder.svg?height=600&width=500"
+                    src="/profile.jpg"
                     alt="Varun Sharma"
                     width={500}
                     height={600}
@@ -156,7 +171,7 @@ export default function AboutPage() {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900">{job.title}</h3>
-                        <p className="text-blue-600 font-medium">{job.company}</p>
+                        <p className="text-blue-600 font-medium">{job.period}</p>
                       </div>
                       <Badge variant="outline" className="w-fit mt-2 md:mt-0">
                         {job.period}
