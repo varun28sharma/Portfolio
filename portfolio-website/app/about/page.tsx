@@ -63,7 +63,7 @@ export default function AboutPage() {
                   drive business growth and enhance user experiences.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link href="/resume.pdf" target="_blank">
+                  <Link href="/Resume 01.pdf" target="_blank">
                     <Button size="lg" className="px-8 py-3">
                       <Download className="mr-2 h-5 w-5" />
                       Download Resume

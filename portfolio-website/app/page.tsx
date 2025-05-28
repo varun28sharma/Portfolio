@@ -195,7 +195,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <Link href="/resume.pdf" target="_blank">
+                  <Link href="/Resume 01.pdf" target="_blank">
                     <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                       <Download className="mr-2 h-4 w-4" />
                       Download Resume
