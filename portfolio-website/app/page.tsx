@@ -31,7 +31,7 @@ export default function HomePage() {
     },
     {
       id: 3,
-      title: "AI-Powered Analytics Dashboard",
+      title: "AI-Powered PDF Dectector",
       description:
         "An intelligent dashboard that provides insights and predictions using machine learning algorithms and data visualization.",
       image: "/placeholder.svg?height=300&width=500",
@@ -125,9 +125,9 @@ export default function HomePage() {
             {/* Stats Section */}
             <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
               {[
-                { number: "50+", label: "Projects Completed" },
-                { number: "5+", label: "Years Experience" },
-                { number: "100%", label: "Client Satisfaction" },
+                { number: "10+", label: "Projects Completed" },
+                { number: "1+", label: "Years Experience" },
+                { number: "100%", label: "Working Projct" },
               ].map((stat, index) => (
                 <div
                   key={index}

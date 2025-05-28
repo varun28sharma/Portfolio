@@ -47,7 +47,7 @@ export default function ProjectsPage() {
     },
     {
       id: 3,
-      title: "AI-Powered Analytics Dashboard",
+      title: "AI-Powered PDF Dectector",
       description:
         "An intelligent dashboard that provides insights and predictions using machine learning algorithms and data visualization.",
       longDescription:
