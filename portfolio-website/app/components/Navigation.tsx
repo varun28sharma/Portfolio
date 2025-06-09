@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Sparkles } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -45,7 +46,7 @@ export default function Navigation() {
               </div>
               <span
                 className={`font-bold text-xl transition-colors duration-300 ${
-                  isScrolled ? "text-gray-900" : "text-white"
+                  isScrolled ? "text-gray-900 dark:text-white" : "text-white"
                 } group-hover:text-gradient`}
               >
                 Portfolio
@@ -63,8 +64,8 @@ export default function Navigation() {
                   pathname === item.href
                     ? "text-blue-600 font-semibold"
                     : isScrolled
-                      ? "text-gray-700 hover:text-blue-600"
-                      : "text-gray-900 hover:text-blue-600"
+                      ? "text-gray-700 dark:text-gray-300 hover:text-blue-600"
+                      : "text-gray-900 dark:text-white hover:text-blue-600"
                 }`}
               >
                 {item.label}
@@ -73,6 +74,7 @@ export default function Navigation() {
                 )}
               </Link>
             ))}
+            <ThemeToggle />
             <Link href="/contact">
               <Button
                 size="sm"
@@ -89,14 +91,17 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className={`md:hidden p-2 rounded-lg transition-all duration-300 ${
-              isScrolled ? "text-gray-900 hover:bg-gray-100" : "text-white hover:bg-white/10"
-            }`}
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="flex items-center space-x-4 md:hidden">
+            <ThemeToggle />
+            <button
+              className={`p-2 rounded-lg transition-all duration-300 ${
+                isScrolled ? "text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800" : "text-white hover:bg-white/10"
+              }`}
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Enhanced Mobile Navigation */}
@@ -107,8 +112,8 @@ export default function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`block px-4 py-3 rounded-lg text-gray-900 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 animate-slide-in-left ${
-                    pathname === item.href ? "text-blue-600 font-semibold bg-blue-50" : ""
+                  className={`block px-4 py-3 rounded-lg text-gray-900 dark:text-white hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-gray-800 transition-all duration-300 animate-slide-in-left ${
+                    pathname === item.href ? "text-blue-600 font-semibold bg-blue-50 dark:bg-gray-800" : ""
                   }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                   onClick={() => setIsOpen(false)}
